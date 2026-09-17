@@ -1,0 +1,162 @@
+/* ===========================
+   BACKGROUND SAMA SEMUA TEKS
+=========================== */
+.stApp {
+    background-color: #F4F7FC;
+}
+
+/* Memaksa semua teks umum berwarna gelap agar terlihat jelas */
+.stApp p, .stApp span, .stApp label {
+    color: #1D3557 !important;
+}
+
+/* ===========================
+   JUDUL SAMA HEADINGS
+=========================== */
+h1 {
+    color: #0F4C81 !important;
+    font-weight: 800 !important;
+}
+
+h2, h3, h4 {
+    color: #1D3557 !important;
+    font-weight: 700 !important;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+section[data-testid="stSidebar"] {
+    background-color: #0F4C81 !important;
+}
+
+/* Memaksa semua teks di sidebar jadi warna putih */
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* Radio Menu Sidebar */
+div[role="radiogroup"] {
+    background: transparent !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+}
+
+section[data-testid="stSidebar"] .stRadio label {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: white !important;
+    padding: 6px 12px !important;
+}
+
+/* ===========================
+   HALAMAN LOGIN (FORM & CARD)
+=========================== */
+div[data-testid="stForm"] {
+    background: white !important;
+    padding: 30px !important;
+    border-radius: 20px !important;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid #E0E0E0 !important;
+}
+
+div[data-testid="stForm"] * {
+    color: #1D3557 !important;
+}
+
+div[data-testid="stForm"] input[type="text"], 
+div[data-testid="stForm"] input[type="password"] {
+    border-radius: 8px !important;
+    border: 1px solid #CCCCCC !important;
+    padding: 10px 12px !important;
+    background-color: #FFFFFF !important;
+    color: #1D3557 !important;
+}
+
+div[data-testid="stForm"] button[type="submit"] {
+    background-color: #0F4C81 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    font-weight: bold !important;
+    border: none !important;
+    padding: 10px 0px !important;
+}
+
+/* ===========================
+   METRIC CARD (PERBAIKAN WARNA TEKS)
+=========================== */
+div[data-testid="stMetric"] {
+    background: white !important;
+    padding: 20px !important;
+    border-radius: 15px !important;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08) !important;
+    border-left: 6px solid #0F4C81 !important;
+}
+
+div[data-testid="stMetric"] label,
+div[data-testid="stMetric"] div[data-testid="stMetricLabel"] p {
+    color: #555555 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+div[data-testid="stMetric"] div[data-testid="stMetricValue"] div {
+    color: #0F4C81 !important;
+    font-weight: 800 !important;
+}
+
+/* ===========================
+   BUTTON (UMUM)
+=========================== */
+.stButton > button {
+    width: 100% !important;
+    border-radius: 10px !important;
+    background: #0F4C81 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border: none !important;
+    transition: 0.3s !important;
+}
+
+.stButton > button:hover {
+    background: #1565C0 !important;
+    color: white !important;
+    transform: scale(1.02) !important;
+}
+
+/* ===========================
+   DATAFRAME & TABLE
+=========================== */
+div[data-testid="stDataFrame"] {
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08) !important;
+}
+
+/* ===========================
+   DOWNLOAD BUTTON
+=========================== */
+.stDownloadButton > button {
+    width: 100% !important;
+    background: #198754 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0F4C81;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ECECEC;
+}
